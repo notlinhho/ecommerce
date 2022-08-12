@@ -176,7 +176,6 @@ HIGHLIGHTS
     transform: translateY(-100%);
 }
 
-
 .highlight__wrapper {
     display: flex;
 
@@ -190,7 +189,6 @@ HIGHLIGHTS
     justify-content: center;
     flex-direction: column;
 }
-
 
 .highlight__para {
     text-align: center;
