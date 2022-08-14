@@ -238,6 +238,7 @@ FEATURES
 
 .books {
     display: flex;
+    max-width: calc();
 }
 
 .book {
@@ -256,6 +257,7 @@ FEATURES
     border-radius: 4px;
     overflow: hidden;
     display: flex;
+    calc
 }
 
 .book:hover .book__img {
