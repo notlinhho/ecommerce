@@ -19,7 +19,7 @@ nav {
 
 img {
     width: 100%;
-    height: 100%
+    height: 100%;
     max-height: 50vh;
     /* padding: 20px; */
 }
@@ -153,6 +153,17 @@ button:active {
     max-width: 100%;
     margin: 0 auto;
 
+}
+
+.row__column {
+    /* centers everything */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-cursor {
+    cursor: not-allowed;
 }
 
 /*
@@ -290,4 +301,41 @@ FEATURES
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/* 
+
+EXPLORE 
+
+*/
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #18191a;
+}
+
+.footer__logo--img {
+    /* makes the image smaller */
+    width: 160px;
+    filter: grayscale(1) invert(1);
+    display: flex;
+}
+
+.footer__link {
+    flex-direction: sp;
+}
+
+.footer__copyright,
+.footer__link {
+    color: white;
+    text-decoration: none;
 }
